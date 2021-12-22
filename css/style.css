@@ -11,7 +11,6 @@ body {
   background-size: cover;
   font-size: 120%;
 }
-
 .card {
   background: rgba(255, 255, 255, 0.4);
   color: white;
@@ -21,13 +20,11 @@ body {
   max-width: 420px;
   margin: 1em;
 }
-
 .search {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 button {
   margin: 0.5em;
   border-radius: 50%;
@@ -40,7 +37,6 @@ button {
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
-
 input.search-bar {
   border: none;
   outline: none;
@@ -53,46 +49,34 @@ input.search-bar {
   width: calc(100% - 100px);
   transition: 0.2s ease-in-out;
 }
-
 button:hover {
   background: #222f3e;
   color: white;
 }
-
 input.search-bar:hover {
   background: #222f3e;
   color: white;
 }
-.city,
-.wind,
-.humidity,
-.temp,
-.description,
-.icon {
+.city,.wind,.humidity,.temp,.description,.icon {
   color: #222f3e;
 }
-
 h1.temp {
   margin: 0;
   margin-bottom: 0.4em;
 }
-
 .flex {
   display: flex;
   align-items: center;
 }
-
 .description {
   text-transform: capitalize;
   margin-left: 8px;
 }
-
 .weather.loading {
   visibility: hidden;
   max-height: 20px;
   position: relative;
 }
-
 .weather.loading:after {
   visibility: visible;
   content: "Loading...";
